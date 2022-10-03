@@ -9,8 +9,66 @@ body *{
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    background: #0eaeee;
+    margin-bottom: 10px;
+}
+
+header li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.nav-links li{
+    padding: 0px 20px;
+}
+
+.nav-links  li a{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+
+}
+
+.login-button button{
+    border: none;
+    background-color: #000;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.login-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+
+}
+
 .main-login{
-    width: 100vw;
+    width: auto;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -28,7 +86,7 @@ body *{
 
 .left-login > h1{
     font-size: 3vw;
-    color: #407BFF;
+    color: #0eaeee;
 }
 
 .left-login-image{
@@ -51,7 +109,7 @@ body *{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #407BFF;
+    background: #0eaeee;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -87,6 +145,8 @@ body *{
 
 .textfield > label{
     margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .btn-login{
@@ -94,7 +154,7 @@ body *{
     padding: 16px 0px;
     margin: 25px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     outline: none;
     text-transform: uppercase;
     font-weight: 800;

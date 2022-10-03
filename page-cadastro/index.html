@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FP cadastro</title>
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="" class="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+        <div class="login-button">
+            <button><a href="#">Login</a></button>
+        </div>
+    </header>
+
+    <div class="conteudo">
+
+        <div class="container">
+            <div class="form-image">
+                <img src="Fitness stats-amico.svg" alt="pessoa-treinando">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <!--
+                        <div class="login-button">
+                            <button><a href="#">Entrar</a></button>
+                        </div>
+                        -->
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Nome" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Sobrenome" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input id="number" type="tel" name="number" placeholder="Numero" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Senha" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="Confirmapassword">Confirme sua senha</label>
+                            <input id="Confirmapassword" type="password" name="Confirmapassword" placeholder="Senha" required>
+                        </div>
+                    </div>
+
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Feminino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Masculino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" name="gender" id="others">
+                                <label for="others">Outro</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="type-account-inputs">
+                        <div class="type-account-title">
+                            <h6>tipo</h6>
+                        </div>
+
+                        <div class="type-account-group">
+                            <div class="type-account-input">
+                                <input type="radio" name="type-account" id="aluno">
+                                <label for="aluno">Aluno</label>
+                            </div>
+
+                            <div class="type-account-input">
+                                <input type="radio" name="gender" id="funcionario">
+                                <label for="funcionario">Funcionário</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="continue-button">
+                        <button><a href="#">Continuar</a></button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
