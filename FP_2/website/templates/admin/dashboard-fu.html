@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/page-dashboard-fu/style.css">
+    <title>FP deshboard</title>
+</head>
+<body>
+    <header>
+        <img src="static/css/page-dashboard-fu/Logo.png" alt="" class="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="{{url_for('cadastro')}}">Inicio</a></li>
+                <li><a href="{{url_for('ficha_fu')}}">fichas</a></li>
+                <li><a href="{{url_for('es')}}">E/S</a></li>
+
+            </ul>
+        </nav>
+        <div class="usuario-var">
+            <p>Olá usuario</p>
+        </div>
+    </header>
+
+    <div class="board-1">
+        <div class="card">
+            <div class="card-icon">
+                <img src="static/css/page-dashboard-fu/documento.png" alt="">
+            </div>
+            <div class="card-info">
+                <label for="nome">Fichas</label>
+                <div class="ficha-button">
+                    <button><a href="{{url_for('ficha_fu')}}">Registrar</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <img src="static/css/page-dashboard-fu/flecha.png" alt="">
+            </div>
+            <div class="card-info">
+                <label for="nome">E/S</label>
+                <div class="ficha-button">
+                    <button><a href="{{url_for('es')}}">Registrar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

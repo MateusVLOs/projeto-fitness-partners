@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/page-contatos/style-contatos.css">
+    <title>FP Contatos</title>
+</head>
+<body>
+    
+</body>
+<header>
+    <img src="static/css/page-contatos/Logo.png" alt="" class="logo">
+    <nav>
+        <ul class="nav-links">
+            <li><a href="{{url_for('cadastro')}}">Inicio</a></li>
+            <li><a href="{{url_for('contatos')}}">Contatos</a></li>
+            <li><a href="{{url_for('sobre')}}">Sobre</a></li>
+            <li><a href="{{url_for('login')}}">Login</a></li>
+        </ul>
+    </nav>
+    <div class="login-button">
+        <button><a href="{{url_for('cadastro')}}">Cadastre-se</a></button>
+    </div>
+</header>
+
+<div class="container">
+    <div class="image">
+        <img src="static/css/page-contatos/Coaches-pana.svg" alt="pessoa-treinando">
+    </div>
+    <div class="texto">
+        <h1>Contatos</h1>
+        <p>E-mail: fitnesspartners@fp.com</p>
+        <p>Telefone: (89) 9999-9999</p>    
+        <p>Instagram: @fitnesspartners</p>    
+        <p>Twitter: @fitnesspartners</p> 
+        
+    </div>
+</div>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/page-sobre/style-sobre.css">
+    <title>FP sobre</title>
+</head>
+<body>
+    
+</body>
+<header>
+    <img src="static/css/page-sobre/Logo.png" alt="" class="logo">
+    <nav>
+        <ul class="nav-links">
+            <li><a href="{{url_for('cadastro')}}">Inicio</a></li>
+            <li><a href="{{url_for('contatos')}}">Contatos</a></li>
+            <li><a href="{{url_for('sobre')}}">Sobre</a></li>
+            <li><a href="{{url_for('login')}}">Login</a></li>
+        </ul>
+    </nav>
+    <div class="login-button">
+        <button><a href="{{url_for('cadastro')}}">Cadastre-se</a></button>
+    </div>
+</header>
+
+<div class="container">
+    <div class="image">
+        <img src="static/css/page-sobre/Gym-bro.svg" alt="pessoa-treinando">
+    </div>
+    <div class="texto">
+        <h1>Sobre</h1>
+        <p>
+            Somos a Fitness Partners uma aplicação que acompanha você na academia.
+            Acesse sua avaliaçãoes veja informações como seu IMC e BF.
+        </p>
+        <div class="login-button">
+            <button><a href="{{url_for('cadastro')}}">Cadastre-se</a></button>
+        </div>
+    </div>
+</div>
+
+</html>
